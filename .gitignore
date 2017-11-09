@@ -52,6 +52,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+*.Logs
 local_settings.py
 
 # Flask stuff:
@@ -99,3 +100,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Compiled directory and file
+build/
+bundle.js
+
+# Dependency directories
+node_modules/
+
+# Jetbrains
+.idea/
