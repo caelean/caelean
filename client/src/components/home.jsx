@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Title from './title.js';
+import Title from './title.jsx';
 class Home extends Component {
     render() {
         return (

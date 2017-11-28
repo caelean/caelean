@@ -3,7 +3,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <div class="header-container">
+                <div className="header-container">
                     <div>Home</div>
                     <div>Projects</div>
                     <div>LinkedIn</div>
