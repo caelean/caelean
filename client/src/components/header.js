@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 class Header extends Component {
-  render() {
-    return (
-      <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-        </ul>
-      </header>
-    )
-  }
+    render() {
+        return (
+            <header>
+                <div class="header-container">
+                    <div>Home</div>
+                    <div>Projects</div>
+                    <div>LinkedIn</div>
+                    <div>Github</div>
+                </div>​
+            </header>
+        )
+    }
 }
 export default Header;

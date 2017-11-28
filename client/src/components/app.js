@@ -8,21 +8,9 @@ class App extends Component {
     render() {
         return (
             <div>
-            <Router>
-                <div>
-                    <Route name="home" exact path="/" component={Home} />
-                </div>
-            </Router>
-            <Router>
-                <div>
-                    <Route name="header" exact path="/" component={Header} />
-                </div>
-            </Router>
-            <Router>
-                <div>
-                    <Route name="footer" exact path="/" component={Footer} />
-                </div>
-            </Router>
+                <Header/>
+                <Home/>
+                <Footer/>
             </div>
         )
     }
