@@ -3,7 +3,7 @@ class Title extends Component {
   render() {
     return (
         <div className="title">
-          Caelean Barnes
+            {this.props.text}
         </div>
     )
   }

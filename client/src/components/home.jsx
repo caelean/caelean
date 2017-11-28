@@ -4,7 +4,11 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Title/>
+                <Title text="Caelean Barnes"/>
+                <br/>
+                <Title text="Projects"/>
+                <br/>
+                <Title text="Links"/>
             </div>
         )
     }
