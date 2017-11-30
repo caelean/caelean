@@ -5,9 +5,10 @@ class Header extends Component {
             <header>
                 <div className="header-container">
                     <div>Home</div>
+                    <div>Work</div>
                     <div>Projects</div>
-                    <div>LinkedIn</div>
-                    <div>Github</div>
+                    <div>Experience</div>
+                    <div>Contact</div>
                 </div>​
             </header>
         )
