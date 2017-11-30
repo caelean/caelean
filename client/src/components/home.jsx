@@ -72,10 +72,10 @@ class Home extends Component {
 
         return (
             <div className="home">
-                <Title text="Caelean Barnes"/>
+                <Title text="Caelean Barnes" section="home"/>
                 <Content info={me}/>
                 <br/>
-                <Title text="Software Engineer, Investor Services @ Carta"/>
+                <Title text="Software Engineer, Investor Services @ Carta" section="work"/>
                 <Content info={points['carta']}/>
                 <Title text="Web Development Intern @ Roku"/>
                 <Content info={points['roku']}/>
@@ -84,11 +84,12 @@ class Home extends Component {
                 <Title text="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"/>
                 <Content info={points['ucla']}/>
                 <br/>
-                <Title text="UC San Diego, Jacobs School of Engineering, 2018"/>
+                <Title text="Skills" section="projects"/>
+                <Content info={points['skills']}/>
+                <br/>
+                <Title text="UC San Diego, Jacobs School of Engineering, 2018" section="education"/>
                 <Content info={points['ucsd']}/>
                 <br/>
-                <Title text="Skills"/>
-                <Content info={points['skills']}/>
             </div>
         )
     }

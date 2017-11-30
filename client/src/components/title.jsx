@@ -5,7 +5,8 @@ class Title extends Component {
     render() {
         return (
             <div className="title">
-               {this.props.text}
+                <a id={this.props.section}/>
+                {this.props.text}
             </div>
         )
     }
