@@ -5,9 +5,7 @@ class Content extends Component {
     render() {
         return (
             <div className="content">
-                <ul>
-                    {this.props.points}
-                </ul>
+                {this.props.info}
             </div>
         )
     }

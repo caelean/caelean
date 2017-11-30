@@ -62,24 +62,33 @@ class Home extends Component {
                 </li>
             );
         }
+        const me = (
+            <div>
+                <img className="headshot" src={require('../assets/bw_headshot.jpg')}/>
+                <br/>
+                Engineering and Design
+            </div>
+        )
+
         return (
             <div className="home">
                 <Title text="Caelean Barnes"/>
+                <Content info={me}/>
                 <br/>
                 <Title text="Software Engineer, Investor Services @ Carta"/>
-                <Content points={points['carta']}/>
+                <Content info={points['carta']}/>
                 <Title text="Web Development Intern @ Roku"/>
-                <Content points={points['roku']}/>
+                <Content info={points['roku']}/>
                 <Title text="CSE Section Lead @ UC San Diego Jacobs School of Engineering"/>
-                <Content points={points['sectionLead']}/>
+                <Content info={points['sectionLead']}/>
                 <Title text="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"/>
-                <Content points={points['ucla']}/>
+                <Content info={points['ucla']}/>
                 <br/>
                 <Title text="UC San Diego, Jacobs School of Engineering, 2018"/>
-                <Content points={points['ucsd']}/>
+                <Content info={points['ucsd']}/>
                 <br/>
                 <Title text="Skills"/>
-                <Content points={points['skills']}/>
+                <Content info={points['skills']}/>
             </div>
         )
     }
