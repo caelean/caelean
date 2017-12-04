@@ -4,11 +4,11 @@ class Header extends Component {
         return (
             <header>
                 <div className="header-container">
-                    <a href="#home">Home</a>
-                    <a href="#work">Work</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#education">Education</a>
-                    <a href="#contact">Contact</a>
+                    <a className="link" href="#home">Home</a>
+                    <a className="link" href="#work">Work</a>
+                    <a className="link" href="#projects">Projects</a>
+                    <a className="link" href="#education">Education</a>
+                    <a className="link" href="#contact">Contact</a>
                 </div>​
             </header>
         )

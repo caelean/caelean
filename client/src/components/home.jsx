@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Title from './title.jsx';
-import Content from './content.jsx';
+import Segment from './segment.jsx';
 
 class Home extends Component {
     render() {
@@ -68,28 +67,17 @@ class Home extends Component {
                 <br/>
                 Engineering and Design
             </div>
-        )
+        );
 
         return (
             <div className="home">
-                <Title text="Caelean Barnes" section="home"/>
-                <Content info={me}/>
-                <br/>
-                <Title text="Software Engineer, Investor Services @ Carta" section="work"/>
-                <Content info={points['carta']}/>
-                <Title text="Web Development Intern @ Roku"/>
-                <Content info={points['roku']}/>
-                <Title text="CSE Section Lead @ UC San Diego Jacobs School of Engineering"/>
-                <Content info={points['sectionLead']}/>
-                <Title text="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"/>
-                <Content info={points['ucla']}/>
-                <br/>
-                <Title text="Skills" section="projects"/>
-                <Content info={points['skills']}/>
-                <br/>
-                <Title text="UC San Diego, Jacobs School of Engineering, 2018" section="education"/>
-                <Content info={points['ucsd']}/>
-                <br/>
+                <Segment titleText="Caelean Barnes" contentInfo={me} section="home"/>
+                <Segment titleText="Software Engineer, Investor Services @ Carta" contentInfo={points['carta']} section="work"/>
+                <Segment titleText="Web Development Intern @ Roku" contentInfo={points['roku']}/>
+                <Segment titleText="CSE Section Lead @ UC San Diego Jacobs School of Engineering" contentInfo={points['sectionLead']}/>
+                <Segment titleText="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab" contentInfo={points['ucla']}/>
+                <Segment titleText="Skills" contentInfo={points['skills']} section="projects"/>
+                <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018" contentInfo={points['ucsd']} section="education"/>
             </div>
         )
     }
