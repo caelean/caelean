@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Home from './home.jsx';
-import Header from './header.jsx';
-import Footer from './footer.jsx'
+import Home from './Home.jsx';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx'
+
 class App extends Component {
     render() {
         return (
@@ -9,7 +10,7 @@ class App extends Component {
                 <Header/>
                 <br/>
                 <Home/>
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
         )
     }

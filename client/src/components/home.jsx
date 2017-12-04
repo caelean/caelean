@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Segment from './segment.jsx';
+import Segment from './Segment.jsx';
 
 class Home extends Component {
     render() {
@@ -71,13 +71,31 @@ class Home extends Component {
 
         return (
             <div className="home">
-                <Segment titleText="Caelean Barnes" contentInfo={me} section="home"/>
-                <Segment titleText="Software Engineer, Investor Services @ Carta" contentInfo={points['carta']} section="work"/>
-                <Segment titleText="Web Development Intern @ Roku" contentInfo={points['roku']}/>
-                <Segment titleText="CSE Section Lead @ UC San Diego Jacobs School of Engineering" contentInfo={points['sectionLead']}/>
-                <Segment titleText="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab" contentInfo={points['ucla']}/>
-                <Segment titleText="Skills" contentInfo={points['skills']} section="projects"/>
-                <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018" contentInfo={points['ucsd']} section="education"/>
+                <Segment titleText="Caelean Barnes"
+                         contentInfo={me}
+                         section="home"
+                />
+                <Segment titleText="Software Engineer, Investor Services @ Carta"
+                         contentInfo={points['carta']}
+                         section="work"
+                />
+                <Segment titleText="Web Development Intern @ Roku"
+                         contentInfo={points['roku']}
+                />
+                <Segment titleText="CSE Section Lead @ UC San Diego Jacobs School of Engineering"
+                         contentInfo={points['sectionLead']}
+                />
+                <Segment titleText="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"
+                         contentInfo={points['ucla']}
+                />
+                <Segment titleText="Skills"
+                         contentInfo={points['skills']}
+                         section="projects"
+                />
+                <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
+                         contentInfo={points['ucsd']}
+                         section="education"
+                />
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Title from './title.jsx';
-import Content from './content.jsx';
+import Title from './Title.jsx';
+import Content from './Content.jsx';
 
 class Segment extends Component {
 
