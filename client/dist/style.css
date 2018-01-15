@@ -4,20 +4,21 @@ header, footer {
     height: 30px;
     font: 2em Avenir, sans-serif;
 }
-.home {
+.page {
     position: relative;
-    left: 10%;
-    right: 10%
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .title {
     font: 2em Avenir, sans-serif;
 }
-.content{
+.content {
     font: 1em Avenir, sans-serif;
 }
-.headshot {
-    width: 10%;
-    height: 10%
+
+.photo {
+    width: 50%;
+    height: 50%
 }
 
 .header-container {
@@ -31,6 +32,7 @@ header, footer {
 .link {
  	color: black;
 }
+
 .column {
     float: left;
     padding: 10px;
@@ -39,9 +41,11 @@ header, footer {
 .left {
   width: 25%;
 }
+
 .right {
   width: 75%;
 }
+
 .segment:after {
     content: "";
     display: table;

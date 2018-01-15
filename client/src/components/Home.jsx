@@ -61,29 +61,26 @@ class Home extends Component {
                 </li>
             );
         }
-        const me = (
-            <div>
-                <img className="headshot" src={require('../assets/bw_headshot.jpg')}/>
-                <br/>
-                Engineering and Design
-            </div>
-        );
 
         return (
             <div className="home">
                 <Segment titleText="Caelean Barnes"
-                         contentInfo={me}
+                         contentInfo="Engineering and Design"
+                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
                          section="home"
                 />
                 <Segment titleText="Software Engineer, Investor Services @ Carta"
                          contentInfo={points['carta']}
+                         image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
                          section="work"
                 />
                 <Segment titleText="Web Development Intern @ Roku"
                          contentInfo={points['roku']}
+                         image={<img className="photo" src={require('../assets/roku_logo.jpg')}/>}
                 />
                 <Segment titleText="CSE Section Lead @ UC San Diego Jacobs School of Engineering"
                          contentInfo={points['sectionLead']}
+                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
                 />
                 <Segment titleText="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"
                          contentInfo={points['ucla']}
@@ -91,10 +88,12 @@ class Home extends Component {
                 <Segment titleText="Skills"
                          contentInfo={points['skills']}
                          section="projects"
+                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
                 />
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
                          contentInfo={points['ucsd']}
                          section="education"
+                         image={<img className="photo" src={require('../assets/ucsd_logo.jpg')}/>}
                 />
             </div>
         )

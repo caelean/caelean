@@ -9,9 +9,10 @@ class Segment extends Component {
             <div className="segment">
                 <div className="column left">
                     <a id={this.props.section}/>
-                    <Title text={this.props.titleText} section="home"/>
+                    {this.props.image}
                 </div>
                 <div className="column right">
+                    <Title text={this.props.titleText} section="home"/>
                     <Content info={this.props.contentInfo}/>
                     <br/>
                 </div>
