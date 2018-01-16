@@ -6,8 +6,7 @@ header, footer {
 }
 .page {
     position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10%;
 }
 .title {
     font: 2em Avenir, sans-serif;
@@ -18,7 +17,7 @@ header, footer {
 
 .photo {
     width: 50%;
-    height: 50%
+    height: 50%;
 }
 
 .header-container {
@@ -29,21 +28,29 @@ header, footer {
     left: 10%;
     right: 10%
 }
+
 .link {
  	color: black;
 }
 
 .column {
     float: left;
-    padding: 10px;
 }
 
 .left {
-  width: 25%;
+    width: 40%;
 }
 
 .right {
-  width: 75%;
+    width: 60%;
+}
+
+.segment {
+    min-height: 80vh;
+}
+
+.segment:last-child {
+    min-height: auto;
 }
 
 .segment:after {
@@ -51,5 +58,3 @@ header, footer {
     display: table;
     clear:  both;
 }
-
-

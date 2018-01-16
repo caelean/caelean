@@ -29,7 +29,7 @@ class Home extends Component {
             'Published scientific research poster “Web Based NDN File System Access” showcasing the benefits of NDN compared to IP addresses',
             'Created database, server, and web page to demonstrate the technology'
         ];
-        points['skills'] = [
+        points['skills'] = [  //todo
             'Python',
             'Django',
             'JavaScript',
@@ -69,31 +69,29 @@ class Home extends Component {
                          image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
                          section="home"
                 />
-                <Segment titleText="Software Engineer, Investor Services @ Carta"
+                <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
                          image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
                          section="work"
                 />
-                <Segment titleText="Web Development Intern @ Roku"
+                <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points['roku']}
                          image={<img className="photo" src={require('../assets/roku_logo.jpg')}/>}
                 />
-                <Segment titleText="CSE Section Lead @ UC San Diego Jacobs School of Engineering"
+                <Segment titleText="Computer Science Section Lead, UCSD School of Engineering"
                          contentInfo={points['sectionLead']}
-                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
+                         image={<img className="photo" src={require('../assets/cse_logo.jpg')}/>}
                 />
-                <Segment titleText="Research Intern @ UCLA Henry Samueli School of Engineering Internet Research Lab"
+                <Segment titleText="Research Intern, UCLA Engineering Internet Research Lab"
                          contentInfo={points['ucla']}
-                />
-                <Segment titleText="Skills"
-                         contentInfo={points['skills']}
-                         section="projects"
-                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
+                         image={<img className="photo" src={require('../assets/ucla_logo.jpg')}/>}
+
                 />
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
                          contentInfo={points['ucsd']}
                          section="education"
                          image={<img className="photo" src={require('../assets/ucsd_logo.jpg')}/>}
+
                 />
             </div>
         )
