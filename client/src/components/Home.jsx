@@ -64,11 +64,14 @@ class Home extends Component {
 
         return (
             <div className="home">
-                <Segment titleText="Caelean Barnes"
-                         contentInfo="Engineering and Design"
-                         image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
-                         section="home"
-                />
+                <div className="sideways">
+                    <Segment titleText="Caelean Barnes"
+                             contentInfo="Engineering and Design"
+                             image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
+                             section="home"
+                    />
+                </div>
+                <div className="space"></div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
                          image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
