@@ -8,7 +8,6 @@ class App extends Component {
         return (
             <div className="page">
                 {/*<Header/>*/}
-                <br/>
                 <Home/>
                 {/*<Footer/>*/}
             </div>
