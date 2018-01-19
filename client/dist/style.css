@@ -53,8 +53,8 @@ body {
 
 .sideways {
     position: fixed;
-    width: 158%;
-    left: 30%;
+    width: 158vw;
+    left: 25vw;
 }
 
 .triangle {
