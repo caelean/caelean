@@ -1,5 +1,5 @@
-.page {
-    padding: 10%;
+body {
+    margin:0;
 }
 
 .title {
@@ -32,7 +32,8 @@
 }
 
 .segment {
-    min-height: 80vh;
+    min-height: 40vh;
+    padding: 10%
 }
 
 .segment:first-child {
@@ -55,7 +56,10 @@
     left: 30%;
 }
 
-.space {
-    padding: 100%;
+.triangle {
+    width: 0;
+	height: 0;
+	border-bottom: 200vh solid red;
+	border-right: 100vw solid transparent;
 }
 
