@@ -38,6 +38,7 @@ body {
 
 .segment:first-child {
     width: 50%;
+    color: white;
 }
 
 .segment:last-child {
@@ -59,7 +60,13 @@ body {
 .triangle {
     width: 0;
 	height: 0;
-	border-bottom: 200vh solid red;
+	border-bottom: 100vh solid black;
 	border-right: 100vw solid transparent;
+}
+
+.box {
+    width: 100vw;
+    height: 200vh;
+    background-color: black;
 }
 

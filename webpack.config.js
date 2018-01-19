@@ -15,11 +15,7 @@ module.exports = {
                 loader: 'style-loader!css-loader'
             },
             {
-                test: /\.png$/,
-                loader: 'url-loader?limit=100000&minetype=image/png'
-            },
-            {
-                test: /\.jpg/,
+                test: /\.(png|jpg)/,
                 loader: 'file-loader'
             },
             {

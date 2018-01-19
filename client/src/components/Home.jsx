@@ -67,11 +67,12 @@ class Home extends Component {
                 <div className="sideways">
                     <Segment titleText="Caelean Barnes"
                              contentInfo="Engineering and Design"
-                             image={<img className="photo" src={require('../assets/bw_headshot.jpg')}/>}
+                             image={<img className="photo" src={require('../assets/bw_headshot_circle.png')}/>}
                              section="home"
                     />
                 </div>
                 <div className="triangle"></div>
+                <div className="box"></div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
                          image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
