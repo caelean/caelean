@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Segment from './Segment.jsx';
+import Slider from './Slider.jsx';
 
 class Home extends Component {
     render() {
@@ -61,18 +62,11 @@ class Home extends Component {
                 </li>
             );
         }
-
         return (
             <div className="home">
-                <div className="sideways">
-                    <Segment titleText="Caelean Barnes"
-                             contentInfo="Engineering and Design"
-                             image={<img className="photo" src={require('../assets/bw_headshot_circle.png')}/>}
-                             section="home"
-                    />
-                </div>
-                <div className="triangle"></div>
-                <div className="box"></div>
+                <Slider/>
+                <div className="triangle"/>
+                <div className="box"/>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
                          image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
