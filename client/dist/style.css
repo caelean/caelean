@@ -33,10 +33,11 @@ body {
 
 .segment {
     min-height: 40vh;
-    padding: 10%
+    padding: 10%;
 }
 
 .segment:first-child {
+    padding: 0%;
     width: 50%;
     color: white;
 }
@@ -51,10 +52,12 @@ body {
     clear:  both;
 }
 
-.sideways {
+.slider {
     position: fixed;
     width: 158vw;
-    left: 25vw;
+    left: 40vw;
+    top: 35vh;
+
 }
 
 .triangle {

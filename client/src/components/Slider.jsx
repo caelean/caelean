@@ -5,7 +5,7 @@ class Slider extends Component {
 
     render() {
         return (
-            <div className="sideways">
+            <div className="slider">
                <Segment titleText="Caelean Barnes"
                  contentInfo="Engineering and Design"
                  image={<img className="photo" src={require('../assets/bw_headshot_circle.png')}/>}

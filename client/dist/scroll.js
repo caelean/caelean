@@ -1,5 +1,5 @@
-$.jInvertScroll([$('.sideways')]);
+$.jInvertScroll([$('.slider')]);
 $(document).one("scroll", function(e) {
-    $('.sideways').css("padding-left", "25vw");
+    $('.slider').css("padding-left", "40%");
 
 });
