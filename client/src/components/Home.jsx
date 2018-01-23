@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Segment from './Segment.jsx';
 import Slider from './Slider.jsx';
+import Title from './Title.jsx';
 
 class Home extends Component {
     render() {
@@ -67,6 +68,9 @@ class Home extends Component {
                 <Slider/>
                 <div className="triangle"/>
                 <div className="box"/>
+                <div className="header">
+                    <Title text="Experience" section="home"/>
+                </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
                          image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}

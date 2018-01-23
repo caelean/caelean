@@ -69,7 +69,17 @@ body {
 
 .box {
     width: 100vw;
-    height: 200vh;
+    height: 150vw;
     background-color: black;
+
 }
+
+.header {
+    text-align: left;
+    padding-left: 10%;
+    color: white;
+    background-color: black;
+    width: 100vw;
+}
+
 
