@@ -5,21 +5,27 @@ $(document).one("scroll", function(e) {
 });
 
 
-var fixmeTop = $('.header').offset().top;       // get initial position of the element
+var fixmeTop = $('.header').offset().top;
 
-$(window).scroll(function() {                  // assign scroll event listener
+$(window).scroll(function() {
 
-    var currentScroll = $(window).scrollTop(); // get current position
+    var currentScroll = $(window).scrollTop();
 
-    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
-        $('.header').css({                      // scroll to that element or below it
+    if (currentScroll >= fixmeTop) {
+        $('.header').css({
             position: 'fixed',
             top: '0',
             left: '0'
         });
+        $('.box').css({
+            height: 'calc(150vw + 44px)',
+        });
     } else {                                   // apply position: static
         $('.header').css({                      // if you scroll above it
             position: 'static'
+        });
+        $('.box').css({
+            height: '150vw',
         });
     }
 
