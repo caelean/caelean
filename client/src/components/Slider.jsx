@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Segment from './Segment.jsx';
+import Constants from '../assets/constants.js'
 
 class Slider extends Component {
 
@@ -8,7 +9,7 @@ class Slider extends Component {
             <div className="slider">
                <Segment titleText="Caelean Barnes"
                  contentInfo="Engineering and Design"
-                 image={<img className="photo" src={require('../assets/bw_headshot_circle.png')}/>}
+                 image={<img className="photo" src={Constants.IMAGES.HEADSHOT}/>}
                  section="home"
                />
             </div>

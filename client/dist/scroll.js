@@ -20,13 +20,12 @@ $(window).scroll(function() {
         $('.box').css({
             height: 'calc(150vw + 44px)',
         });
-    } else {                                   // apply position: static
-        $('.header').css({                      // if you scroll above it
+    } else {
+        $('.header').css({
             position: 'static'
         });
         $('.box').css({
             height: '150vw',
         });
     }
-
 });

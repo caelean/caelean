@@ -1,4 +1,6 @@
+import Constants from '../assets/constants.js'
 import React, { Component } from 'react';
+
 import Segment from './Segment.jsx';
 import Slider from './Slider.jsx';
 import Title from './Title.jsx';
@@ -73,26 +75,26 @@ class Home extends Component {
                 </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points['carta']}
-                         image={<img className="photo" src={require('../assets/carta_logo.jpg')}/>}
+                         image={<img className="photo" src={Constants.IMAGES.CARTA}/>}
                          section="work"
                 />
                 <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points['roku']}
-                         image={<img className="photo" src={require('../assets/roku_logo.jpg')}/>}
+                         image={<img className="photo" src={Constants.IMAGES.ROKU}/>}
                 />
                 <Segment titleText="Computer Science Section Lead, UCSD School of Engineering"
                          contentInfo={points['sectionLead']}
-                         image={<img className="photo" src={require('../assets/cse_logo.jpg')}/>}
+                         image={<img className="photo" src={Constants.IMAGES.CSE}/>}
                 />
                 <Segment titleText="Research Intern, UCLA Engineering Internet Research Lab"
                          contentInfo={points['ucla']}
-                         image={<img className="photo" src={require('../assets/ucla_logo.jpg')}/>}
+                         image={<img className="photo" src={Constants.IMAGES.UCLA}/>}
 
                 />
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
                          contentInfo={points['ucsd']}
                          section="education"
-                         image={<img className="photo" src={require('../assets/ucsd_logo.jpg')}/>}
+                         image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
 
                 />
             </div>
