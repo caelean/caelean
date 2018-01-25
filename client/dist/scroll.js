@@ -1,14 +1,16 @@
 $.jInvertScroll([$('.slider')]);
-$(document).one("scroll", function(e) {
-    $('.slider').css("padding-left", "40%");
+const fixmeTop = $('.header').offset().top;
 
+$(window).one("scroll", function(e) {
+    $('.slider').css("padding-left", "40%");
 });
 
+$(window).one("resize", function(e) {
+    $('.slider').css("padding-left", "40%");
+    fixmeTop = $('.header').offset().top;
+});
 
-var fixmeTop = $('.header').offset().top;
-
-$(window).scroll(function() {
-
+function updatePage() {
     var currentScroll = $(window).scrollTop();
 
     if (currentScroll >= fixmeTop) {
@@ -28,4 +30,12 @@ $(window).scroll(function() {
             height: '150vw',
         });
     }
+}
+
+$(window).resize(function() {
+    updatePage();
+});
+
+$(window).scroll(function() {
+    updatePage();
 });
