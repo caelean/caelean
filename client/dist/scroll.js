@@ -1,38 +1,41 @@
-$.jInvertScroll([$('.slider')]);
-const fixmeTop = $('.header').offset().top;
+const box = $('.box');
+const slider = $('.slider');
+const header = $('.header');
+
+let fixmeTop = box.offset().top + box.outerHeight();
+$.jInvertScroll([slider]);
 
 $(window).one("scroll", function(e) {
-    $('.slider').css("padding-left", "40%");
+    slider.css("padding-left", "40%");
 });
 
 $(window).one("resize", function(e) {
-    $('.slider').css("padding-left", "40%");
-    fixmeTop = $('.header').offset().top;
+    slider.css("padding-left", "40%");
 });
 
 function updatePage() {
-    var currentScroll = $(window).scrollTop();
-
+    let currentScroll = $(window).scrollTop();
     if (currentScroll >= fixmeTop) {
-        $('.header').css({
+        header.css({
             position: 'fixed',
             top: '0',
             left: '0'
         });
-        $('.box').css({
+        box.css({
             height: 'calc(150vw + 44px)',
         });
     } else {
-        $('.header').css({
+        header.css({
             position: 'static'
         });
-        $('.box').css({
+        box.css({
             height: '150vw',
         });
     }
 }
 
 $(window).resize(function() {
+    fixmeTop = box.offset().top + box.outerHeight();
     updatePage();
 });
 
