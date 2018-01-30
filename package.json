@@ -8,7 +8,9 @@
     "start": "node ./server/index.js",
     "build": "webpack -p",
     "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon server/index.js"
+    "server-dev": "nodemon server/index.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "heroku": "^0.2.0",
     "react": "^16.2.0",
     "react-anime": "^2.0.1",
     "react-bootstrap": "^0.31.5",
