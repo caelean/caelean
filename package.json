@@ -12,7 +12,7 @@
     "build": "webpack -p",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "postinstall": "webpack",
+    "postinstall": "webpack -p",
     "heroku-postbuild": "webpack -p"
   },
   "repository": {
