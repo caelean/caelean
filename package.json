@@ -2,6 +2,9 @@
   "name": "caelean-app",
   "version": "1.0.0",
   "description": "caelean.com",
+  "engines": {
+    "node": "9.4.0"
+  },
   "main": "/client/src/index.js",
   "scripts": {
     "dev": "webpack -d --watch",
