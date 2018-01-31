@@ -48,6 +48,30 @@ class Home extends Component {
                          image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
 
                 />
+                <Segment titleText="Twittermap"
+                         contentInfo={points_list.TWITTERMAP}
+                         section="education"
+                         image={<img className="photo" src={Constants.IMAGES.TWITTERMAP}/>}
+
+                />
+                <Segment titleText="Web Based NDN File System Access"
+                         contentInfo={points_list.NDN}
+                         section="education"
+                         image={<img className="photo" src={Constants.IMAGES.NDN}/>}
+
+                />
+                <Segment titleText="LiveList"
+                         contentInfo={points_list.LIVELIST}
+                         section="education"
+                         image={<img className="photo" src={Constants.IMAGES.LIVELIST}/>}
+
+                />
+                <Segment titleText="Insta Job"
+                         contentInfo={points_list.INSTAJOB}
+                         section="education"
+                         image={<img className="photo" src={Constants.IMAGES.INSTAJOB}/>}
+
+                />
             </div>
         )
     }

@@ -5,7 +5,11 @@ const Constants = {
         CARTA: require('./carta_logo.jpg'),
         CSE: require('./cse_logo.jpg'),
         UCLA: require('./ucla_logo.jpg'),
-        UCSD: require('./ucsd_logo.jpg')
+        UCSD: require('./ucsd_logo.jpg'),
+        TWITTERMAP: require('./twittermap.png'),
+        INSTAJOB: require('./instajob_logo.png'),
+        NDN: require('./hssrp_poster.jpg'),
+        LIVELIST: require('./livelist_logo.png'),
     },
     POINTS: {
         CARTA: [
@@ -41,7 +45,19 @@ const Constants = {
             'Provost Honors',
             'Club Water Polo, Club Swim, Sigma Chi'
         ],
-         SKILLS: [
+        TWITTERMAP: [
+            'Dynamically view the influence of twitter users based on location'
+        ],
+        INSTAJOB: [
+            'Location based job matching all on your phone'
+        ],
+        LIVELIST: [
+            'Get updates when new craigslist postings match your search'
+        ],
+        NDN: [
+            'Proof of concept for file access on an NDN internet'
+        ],
+        SKILLS: [
             'Python',
             'Django',
             'JavaScript',
