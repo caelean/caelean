@@ -22,14 +22,14 @@ function updatePage() {
             left: '0'
         });
         box.css({
-            height: 'calc(150vw + 44px)',
+            height: 'calc(100vw + 44px)'
         });
     } else {
         header.css({
             position: 'static'
         });
         box.css({
-            height: '150vw',
+            height: '100vw'
         });
     }
 }
