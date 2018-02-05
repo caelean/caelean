@@ -15,10 +15,6 @@ body {
     height: 50%;
 }
 
-.link {
- 	color: black;
-}
-
 .column {
     float: left;
 }
@@ -75,11 +71,30 @@ body {
 }
 
 .header {
+    font: 2em Avenir, sans-serif;
     text-align: left;
     padding-left: 10%;
     color: white;
     background-color: black;
     width: 90vw;
+    z-index: 1;
+    position: relative;
 }
 
+.static-header {
+    text-align: left;
+    position: relative;
+    padding-left: 10%;
+    color: white;
+    background-color: black;
+    width: 90vw;
+    z-index: 2;
+}
 
+a {
+    background-color: transparent;
+    text-decoration: None;
+}
+.work, .education, .projects, .contact {
+    color:black;
+}

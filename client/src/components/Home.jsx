@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Segment from './Segment.jsx';
 import Slider from './Slider.jsx';
 import Title from './Title.jsx';
+import Header from './Header.jsx';
 
 class Home extends Component {
     render() {
@@ -21,8 +22,9 @@ class Home extends Component {
                 <Slider/>
                 <div className="triangle"/>
                 <div className="box"/>
-                <div className="header">
-                    <Title text="Experience" section="home"/>
+                <Header/>
+                <div className="static-header header-work">
+                        <Title text="Experience" section="home"/>
                 </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
@@ -42,6 +44,9 @@ class Home extends Component {
                          image={<img className="photo" src={Constants.IMAGES.UCLA}/>}
 
                 />
+                <div className="static-header">
+                    <Title text="Education" section="education"/>
+                </div>
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
                          contentInfo={points_list.UCSD}
                          section="education"

@@ -7,12 +7,12 @@ class Segment extends Component {
     render() {
         return (
             <div className="segment">
+                <a id={this.props.section}/>
                 <div className="column left">
-                    <a id={this.props.section}/>
                     {this.props.image}
                 </div>
                 <div className="column right">
-                    <Title text={this.props.titleText} section="home"/>
+                    <Title text={this.props.titleText}/>
                     <Content info={this.props.contentInfo}/>
                     <br/>
                 </div>
