@@ -2,6 +2,7 @@ const box = $('.box');
 const slider = $('.slider');
 const header_work = $('.header-work');
 const header_education = $('.header-education');
+const header_projects = $('.header-projects')
 const header = $('.header');
 
 let fixmeTop = box.offset().top + box.outerHeight();
@@ -58,7 +59,9 @@ function updatePage() {
         $('.education').css({
             color: 'white'
         });
-
+        $('.work').css({
+            color: 'darkgrey'
+        });
         header_education.css({
             zIndex: -1
         });
@@ -67,6 +70,26 @@ function updatePage() {
             color: 'black'
         });
         header_education.css({
+            zIndex: 2
+        });
+    }
+
+    let projects_top = header_projects.offset().top;
+    if (header_top >= projects_top) {
+        $('.projects').css({
+            color: 'white'
+        });
+        $('.education').css({
+            color: 'darkgrey'
+        });
+        header_projects.css({
+            zIndex: -1
+        });
+    } else {
+        $('.projects').css({
+            color: 'black'
+        });
+        header_projects.css({
             zIndex: 2
         });
     }

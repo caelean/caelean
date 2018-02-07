@@ -53,6 +53,9 @@ class Home extends Component {
                          image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
 
                 />
+                <div className="static-header header-projects">
+                    <Title text="Projects" section="projects"/>
+                </div>
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
                          section="education"

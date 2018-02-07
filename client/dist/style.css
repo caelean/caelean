@@ -88,9 +88,15 @@ body {
     position: relative;
     padding-left: 10%;
     color: white;
-    background-color: black;
     width: 90vw;
     z-index: 2;
+}
+.header-education {
+    margin-left: 10.5em;
+}
+
+.header-projects {
+    margin-left: 20em;
 }
 
 a {
