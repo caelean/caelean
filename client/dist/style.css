@@ -2,6 +2,18 @@ body {
     margin:0;
 }
 
+li {
+    list-style-position: outside;
+    text-indent: -1.5em;
+    margin-left:1.5em;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: None;
+    color: black;
+}
+
 .title {
     font: 2em Avenir, sans-serif;
 }
@@ -97,11 +109,6 @@ body {
     margin-left: 20em;
 }
 
-a {
-    background-color: transparent;
-    text-decoration: None;
-    color: black;
-}
 .work, .education, .projects, .contact {
     color:black;
 }
