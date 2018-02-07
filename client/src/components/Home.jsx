@@ -24,12 +24,11 @@ class Home extends Component {
                 <div className="box"/>
                 <Header/>
                 <div className="static-header header-work">
-                        <Title text="Experience" section="home"/>
+                        <Title text="Experience" section="work"/>
                 </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
                          image={<img className="photo" src={Constants.IMAGES.CARTA}/>}
-                         section="work"
                 />
                 <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points_list.ROKU}
@@ -49,7 +48,6 @@ class Home extends Component {
                 </div>
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
                          contentInfo={points_list.UCSD}
-                         section="education"
                          image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
 
                 />
@@ -58,25 +56,21 @@ class Home extends Component {
                 </div>
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
-                         section="education"
                          image={<img className="photo" src={Constants.IMAGES.TWITTERMAP}/>}
 
                 />
                 <Segment titleText="Web Based NDN File System Access"
                          contentInfo={points_list.NDN}
-                         section="education"
                          image={<img className="photo" src={Constants.IMAGES.NDN}/>}
 
                 />
                 <Segment titleText="LiveList"
                          contentInfo={points_list.LIVELIST}
-                         section="education"
                          image={<img className="photo" src={Constants.IMAGES.LIVELIST}/>}
 
                 />
                 <Segment titleText="Insta Job"
                          contentInfo={points_list.INSTAJOB}
-                         section="education"
                          image={<img className="photo" src={Constants.IMAGES.INSTAJOB}/>}
 
                 />

@@ -7,7 +7,6 @@ class Segment extends Component {
     render() {
         return (
             <div className="segment">
-                <a id={this.props.section}/>
                 <div className="column left">
                     {this.props.image}
                 </div>
