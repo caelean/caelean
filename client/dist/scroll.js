@@ -1,6 +1,7 @@
 const box = $('.box');
 const slider = $('.slider');
 const header_work = $('.header-work');
+const header_education = $('.header-education');
 const header = $('.header');
 
 let fixmeTop = box.offset().top + box.outerHeight();
@@ -33,8 +34,9 @@ function updatePage() {
             height: '100vw'
         });
     }
-    let work_top = header_work.offset().top;
     let header_top = header.offset().top;
+
+    let work_top = header_work.offset().top;
     if (header_top >= work_top) {
         $('.work').css({
             color: 'white'
@@ -48,6 +50,23 @@ function updatePage() {
             color: 'black'
         });
         header_work.css({
+            zIndex: 2
+        });
+    }
+    let education_top = header_education.offset().top;
+    if (header_top >= education_top) {
+        $('.education').css({
+            color: 'white'
+        });
+
+        header_education.css({
+            zIndex: -1
+        });
+    } else {
+        $('.education').css({
+            color: 'black'
+        });
+        header_education.css({
             zIndex: 2
         });
     }

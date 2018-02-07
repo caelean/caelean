@@ -44,7 +44,7 @@ class Home extends Component {
                          image={<img className="photo" src={Constants.IMAGES.UCLA}/>}
 
                 />
-                <div className="static-header">
+                <div className="static-header header-education">
                     <Title text="Education" section="education"/>
                 </div>
                 <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"

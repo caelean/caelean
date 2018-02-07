@@ -29,7 +29,9 @@ body {
 
 .segment {
     min-height: 40vh;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .segment:first-child {
@@ -38,9 +40,9 @@ body {
     color: white;
 }
 
-.segment:last-child {
-    min-height: auto;
-}
+/*.segment:last-child {*/
+    /*min-height: auto;*/
+/*}*/
 
 .segment:after {
     content: "";
