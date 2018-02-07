@@ -11,8 +11,8 @@ body {
 }
 
 .photo {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 .column {
@@ -20,11 +20,11 @@ body {
 }
 
 .left {
-    width: 40%;
+    width: 30%;
 }
 
 .right {
-    width: 60%;
+    width: 70%;
 }
 
 .segment {
@@ -32,17 +32,15 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
+    z-index: 1;
+    position: relative
 }
 
 .segment:first-child {
-    padding: 0%;
+    padding: 0;
     width: 50%;
     color: white;
 }
-
-/*.segment:last-child {*/
-    /*min-height: auto;*/
-/*}*/
 
 .segment:after {
     content: "";
@@ -55,6 +53,7 @@ body {
     width: 158vw;
     left: 40vw;
     top: 35vh;
+    z-index: 0;
 
 }
 
@@ -79,7 +78,7 @@ body {
     color: white;
     background-color: black;
     width: 90vw;
-    z-index: 1;
+    z-index: 2;
     position: relative;
 }
 
@@ -88,7 +87,7 @@ body {
     position: relative;
     padding-left: 10%;
     color: white;
-    z-index: 2;
+    z-index: 3;
 }
 .header-education {
     margin-left: 10.5em;
@@ -101,6 +100,7 @@ body {
 a {
     background-color: transparent;
     text-decoration: None;
+    color: black;
 }
 .work, .education, .projects, .contact {
     color:black;

@@ -29,18 +29,22 @@ class Home extends Component {
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
                          image={<img className="photo" src={Constants.IMAGES.CARTA}/>}
+                         link={Constants.LINKS.CARTA}
                 />
                 <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points_list.ROKU}
                          image={<img className="photo" src={Constants.IMAGES.ROKU}/>}
+                         link={Constants.LINKS.ROKU}
                 />
-                <Segment titleText="Computer Science Section Lead, UCSD School of Engineering"
+                <Segment titleText="Section Lead, Jacobs School of Engineering"
                          contentInfo={points_list.SECTIONLEAD}
                          image={<img className="photo" src={Constants.IMAGES.CSE}/>}
+                         link={Constants.LINKS.CSE}
                 />
-                <Segment titleText="Research Intern, UCLA Engineering Internet Research Lab"
+                <Segment titleText="Research Intern, Internet Research Lab"
                          contentInfo={points_list.UCLA}
                          image={<img className="photo" src={Constants.IMAGES.UCLA}/>}
+                         link={Constants.LINKS.UCLA}
 
                 />
                 <div className="static-header header-education">
@@ -57,21 +61,25 @@ class Home extends Component {
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
                          image={<img className="photo" src={Constants.IMAGES.TWITTERMAP}/>}
+                         link={Constants.LINKS.TWITTERMAP}
 
                 />
                 <Segment titleText="Web Based NDN File System Access"
                          contentInfo={points_list.NDN}
                          image={<img className="photo" src={Constants.IMAGES.NDN}/>}
+                         link={Constants.LINKS.UCLA}
 
                 />
                 <Segment titleText="LiveList"
                          contentInfo={points_list.LIVELIST}
                          image={<img className="photo" src={Constants.IMAGES.LIVELIST}/>}
+                         link={Constants.LINKS.LIVELIST}
 
                 />
                 <Segment titleText="Insta Job"
                          contentInfo={points_list.INSTAJOB}
                          image={<img className="photo" src={Constants.IMAGES.INSTAJOB}/>}
+                         link={Constants.LINKS.INSTAJOB}
 
                 />
             </div>
