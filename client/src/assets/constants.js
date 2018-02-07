@@ -46,16 +46,20 @@ const Constants = {
             'Club Water Polo, Club Swim, Sigma Chi'
         ],
         TWITTERMAP: [
-            'Dynamically view the influence of twitter users based on location'
+            'Dynamically view the influence of twitter users based on location',
+            'Built with Python, Javascript, and SPARQL'
         ],
         INSTAJOB: [
-            'Location based job matching all on your phone'
+            'Location based job matching all on your phone',
+            'Built with Java in Android Studio'
         ],
         LIVELIST: [
-            'Get updates when new craigslist postings match your search'
+            'Get updates when new craigslist postings match your search',
+            'Built with JavaScript as a Chrome extension'
         ],
         NDN: [
-            'Proof of concept for file access on an NDN internet'
+            'Proof of concept for file access on an NDN internet',
+            'Built with Javascript and MongoDB'
         ],
         SKILLS: [
             'Python',
