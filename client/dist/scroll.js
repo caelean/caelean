@@ -1,9 +1,18 @@
 const box = $('.box');
 const slider = $('.slider');
-const header_work = $('.header-work');
-const header_education = $('.header-education');
-const header_projects = $('.header-projects')
 const header = $('.header');
+
+const headerWork = $('.header-work');
+const work = $('.work');
+let visitedWork = false;
+
+const headerEducation = $('.header-education');
+const education = $('.education');
+let visitedEducation = false;
+
+const headerProjects = $('.header-projects');
+const projects = $('.projects');
+let visitedProjects = false;
 
 let fixmeTop = box.offset().top + box.outerHeight();
 $.jInvertScroll([slider]);
@@ -29,68 +38,77 @@ function updatePage() {
         });
     } else {
         header.css({
-            position: 'static'
+            position: 'relative'
         });
         box.css({
             height: '100vw'
         });
     }
-    let header_top = header.offset().top;
-
-    let work_top = header_work.offset().top;
-    if (header_top >= work_top) {
-        $('.work').css({
+    let headerTop = header.offset().top;
+    let workTop = headerWork.offset().top;
+    if (headerTop >= workTop) {
+        visitedWork = true;
+        work.css({
             color: 'white'
         });
-
-        header_work.css({
+        headerWork.css({
             zIndex: -1
         });
-    } else {
-        $('.work').css({
+    } else if (!visitedWork) {
+        work.css({
             color: 'black'
         });
-        header_work.css({
+        headerWork.css({
             zIndex: 2
         });
     }
-    let education_top = header_education.offset().top;
-    if (header_top >= education_top) {
-        $('.education').css({
+    let educationTop = headerEducation.offset().top;
+    if (headerTop >= educationTop) {
+        visitedEducation = true;
+        education.css({
             color: 'white'
         });
-        $('.work').css({
+        work.css({
             color: 'darkgrey'
         });
-        header_education.css({
+        headerEducation.css({
             zIndex: -1
         });
-    } else {
-        $('.education').css({
+    } else if (!visitedEducation) {
+        education.css({
             color: 'black'
         });
-        header_education.css({
+        headerEducation.css({
             zIndex: 2
+        });
+    } else {
+        education.css({
+            color: 'darkgrey'
         });
     }
 
-    let projects_top = header_projects.offset().top;
-    if (header_top >= projects_top) {
-        $('.projects').css({
+    let projectsTop = headerProjects.offset().top;
+    if (headerTop >= projectsTop) {
+        visitedProjects = true;
+        projects.css({
             color: 'white'
         });
-        $('.education').css({
+        education.css({
             color: 'darkgrey'
         });
-        header_projects.css({
+        headerProjects.css({
             zIndex: -1
         });
-    } else {
-        $('.projects').css({
+    } else if (!visitedProjects) {
+        projects.css({
             color: 'black'
         });
-        header_projects.css({
+        headerProjects.css({
             zIndex: 2
+        });
+    } else {
+        projects.css({
+            color: 'darkgrey'
         });
     }
 
@@ -98,6 +116,7 @@ function updatePage() {
 
 $(window).resize(function() {
     fixmeTop = box.offset().top + box.outerHeight();
+    $.jInvertScroll([slider]);
     updatePage();
 });
 
