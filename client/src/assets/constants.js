@@ -55,7 +55,7 @@ const Constants = {
         TWITTERMAP: [
             'Dynamically view the influence of twitter users based on location',
             'Utilizes data from Twitter and Influencetracker',
-            'Built with Python, Javascript, and SPARQL as a semantic web application'
+            'Built with Python, Javascript, and SPARQL'
         ],
         INSTAJOB: [
             'Location based job matching all on your phone',
