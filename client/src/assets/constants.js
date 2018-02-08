@@ -6,10 +6,11 @@ const Constants = {
         CSE: require('./cse_logo.jpg'),
         UCLA: require('./ucla_logo.jpg'),
         UCSD: require('./ucsd_logo.jpg'),
+        AMS: require('./ams_logo.png'),
         TWITTERMAP: require('./twittermap.png'),
         INSTAJOB: require('./instajob_logo.png'),
         NDN: require('./hssrp_poster.jpg'),
-        LIVELIST: require('./livelist_logo.png'),
+        LIVELIST: require('./livelist_logo.png')
     },
     POINTS: {
         CARTA: [
@@ -44,6 +45,12 @@ const Constants = {
             'Earl Warren College Honors Society',
             'Provost Honors',
             'Club Water Polo, Club Swim, Sigma Chi'
+        ],
+        AMS: [
+            'Special studies in Computer Science',
+            '4.0 GPA',
+            'Topics included programming security, information retrieval, and physical computing',
+            'Built a web application to visualize semantic linked data across multiple sources'
         ],
         TWITTERMAP: [
             'Dynamically view the influence of twitter users based on location',

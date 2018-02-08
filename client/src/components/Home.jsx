@@ -24,7 +24,8 @@ class Home extends Component {
                 <div className="box"/>
                 <Header/>
                 <div className="static-header header-work">
-                        <Title text="Experience" section="work"/>
+                        <a id="work"/>
+                        <Title text="Experience"/>
                 </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
@@ -48,14 +49,21 @@ class Home extends Component {
 
                 />
                 <div className="static-header header-education">
+                    <a id="education"/>
                     <Title text="Education" section="education"/>
                 </div>
-                <Segment titleText="UC San Diego, Jacobs School of Engineering, 2018"
+                <Segment titleText="UC San Diego, Jacobs School of Engineering"
                          contentInfo={points_list.UCSD}
                          image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
 
                 />
+                <Segment titleText="Vrije Universiteit Amsterdam, Faculty of Science"
+                         contentInfo={points_list.AMS}
+                         image={<img className="photo" src={Constants.IMAGES.AMS}/>}
+
+                />
                 <div className="static-header header-projects">
+                    <a id="projects"/>
                     <Title text="Projects" section="projects"/>
                 </div>
                 <Segment titleText="Twittermap"
