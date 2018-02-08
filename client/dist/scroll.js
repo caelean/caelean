@@ -17,6 +17,9 @@ let visitedProjects = false;
 let fixmeTop = box.offset().top + box.outerHeight();
 $.jInvertScroll([slider]);
 
+window.sr = ScrollReveal();
+sr.reveal('.segment');
+
 $(window).one("scroll", function(e) {
     slider.css("padding-left", "40%");
 });
