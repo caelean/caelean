@@ -67,7 +67,7 @@ const Constants = {
         ],
         NDN: [
             'Proof of concept for file access on an NDN internet',
-            'Built with Javascript and MongoDB'
+            'Built with Javascript, Python, and MongoDB'
         ],
         SKILLS: [
             'Python',
