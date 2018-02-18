@@ -131,6 +131,6 @@ sr.reveal('.pop',
         scale: 1,
         viewFactor: 0.1,
         origin: 'right',
-        distance: '50vw',
+        distance: '10vw',
     }
 );
