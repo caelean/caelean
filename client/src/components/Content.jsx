@@ -4,7 +4,7 @@ class Content extends Component {
 
     render() {
         return (
-            <div className="content">
+            <div className="content pop">
                 {this.props.info}
             </div>
         )

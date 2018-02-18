@@ -4,7 +4,7 @@ class Title extends Component {
 
     render() {
         return (
-            <div className="title">
+            <div className="title pop">
                 {this.props.text}
             </div>
         )

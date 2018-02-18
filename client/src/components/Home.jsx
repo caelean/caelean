@@ -24,69 +24,66 @@ class Home extends Component {
                 <div className="box"/>
                 <Header/>
                 <div className="static-header header-work">
-                        <a id="work"/>
-                        <Title text="Experience"/>
+                    <a id="work"/>
+                    <div className="title">Experience</div>
                 </div>
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
-                         image={<img className="photo" src={Constants.IMAGES.CARTA}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.CARTA}/>}
                          link={Constants.LINKS.CARTA}
                 />
                 <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points_list.ROKU}
-                         image={<img className="photo" src={Constants.IMAGES.ROKU}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.ROKU}/>}
                          link={Constants.LINKS.ROKU}
                 />
                 <Segment titleText="Section Lead, Jacobs School of Engineering"
                          contentInfo={points_list.SECTIONLEAD}
-                         image={<img className="photo" src={Constants.IMAGES.CSE}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.CSE}/>}
                          link={Constants.LINKS.CSE}
                 />
                 <Segment titleText="Research Intern, Internet Research Lab"
                          contentInfo={points_list.UCLA}
-                         image={<img className="photo" src={Constants.IMAGES.UCLA}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.UCLA}/>}
                          link={Constants.LINKS.UCLA}
-
                 />
                 <div className="static-header header-education">
                     <a id="education"/>
-                    <Title text="Education" section="education"/>
+                    <div className="title">Education</div>
                 </div>
                 <Segment titleText="UC San Diego, Jacobs School of Engineering"
                          contentInfo={points_list.UCSD}
-                         image={<img className="photo" src={Constants.IMAGES.UCSD}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.UCSD}/>}
 
                 />
                 <Segment titleText="Vrije Universiteit Amsterdam, Faculty of Science"
                          contentInfo={points_list.AMS}
-                         image={<img className="photo" src={Constants.IMAGES.AMS}/>}
-
+                         image={<img className="photo pop" src={Constants.IMAGES.AMS}/>}
                 />
                 <div className="static-header header-projects">
                     <a id="projects"/>
-                    <Title text="Projects" section="projects"/>
+                    <div className="title">Projects</div>
                 </div>
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
-                         image={<img className="photo" src={Constants.IMAGES.TWITTERMAP}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.TWITTERMAP}/>}
                          link={Constants.LINKS.TWITTERMAP}
 
                 />
                 <Segment titleText="Web Based NDN File System Access"
                          contentInfo={points_list.NDN}
-                         image={<img className="photo" src={Constants.IMAGES.NDN}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.NDN}/>}
                          link={Constants.LINKS.UCLA}
 
                 />
                 <Segment titleText="LiveList"
                          contentInfo={points_list.LIVELIST}
-                         image={<img className="photo" src={Constants.IMAGES.LIVELIST}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.LIVELIST}/>}
                          link={Constants.LINKS.LIVELIST}
-
                 />
                 <Segment titleText="Insta Job"
                          contentInfo={points_list.INSTAJOB}
-                         image={<img className="photo" src={Constants.IMAGES.INSTAJOB}/>}
+                         image={<img className="photo pop" src={Constants.IMAGES.INSTAJOB}/>}
                          link={Constants.LINKS.INSTAJOB}
 
                 />
