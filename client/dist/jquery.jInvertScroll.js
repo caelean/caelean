@@ -73,8 +73,8 @@
         // Listen for the actual scroll event
         $(window).on('scroll resize', function(e) {
             var currY = $(this).scrollTop();
-            var totalHeight = $('.box').height() * 2;
-            var winHeight = $(this).height();
+            var totalHeight = $('.box').height() * 2.5;
+            var winHeight =$('.box').height();
             var winWidth = $(this).width();
             
             // Current percent position

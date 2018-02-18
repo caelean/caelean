@@ -34,14 +34,14 @@ function updatePage() {
             left: '0'
         });
         box.css({
-            height: 'calc(100vw + 44px)'
+            height: 'calc(50vw + 44px)'
         });
     } else {
         header.css({
             position: 'relative'
         });
         box.css({
-            height: '100vw'
+            height: '50vw'
         });
     }
     let headerTop = header.offset().top;
