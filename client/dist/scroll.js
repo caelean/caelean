@@ -1,6 +1,8 @@
 const box = $('.box');
 const slider = $('.slider');
 const header = $('.header');
+const welcome = $('.welcome');
+const headshot = $('.welcome-photo').children();
 
 const headerWork = $('.header-work');
 const work = $('.work');
@@ -115,6 +117,8 @@ function updatePage() {
 }
 
 $(window).resize(function() {
+    let welcome_height = (headshot.width() / 2) - 22;
+    welcome.css("padding-top", welcome_height);
     fixmeTop = box.offset().top + box.outerHeight();
     $.jInvertScroll([slider]);
     updatePage();
@@ -123,6 +127,8 @@ $(window).resize(function() {
 $(window).scroll(function() {
     updatePage();
 });
+let welcome_height = (headshot.width() / 2) - 44;
+welcome.css("padding-top", welcome_height);
 
 window.sr = ScrollReveal();
 sr.reveal('.pop',

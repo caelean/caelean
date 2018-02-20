@@ -6,23 +6,23 @@ class Bar extends Component {
     render() {
         return (
             <div className="bar">
-                <ul>
-                    <li>
+                <ul className="icon-ul">
+                    <li className="icon-list">
                         <span>
                             <img className="icon pop" src={Constants.ICONS.EMAIL}/>
                         </span>
                     </li>
-                    <li>
+                    <li className="icon-list">
                         <span>
                             <img className="icon pop" src={Constants.ICONS.LINKEDIN}/>
                         </span>
                     </li>
-                    <li>
+                    <li className="icon-list">
                         <span>
                             <img className="icon pop" src={Constants.ICONS.GITHUB}/>
                         </span>
                     </li>
-                    <li>
+                    <li className="icon-list">
                         <span>
                             <img className="icon pop" src={Constants.ICONS.RESUME}/>
                         </span>
