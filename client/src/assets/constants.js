@@ -93,13 +93,17 @@ const Constants = {
         ]
     },
     LINKS: {
-        CARTA: "https://carta.com",
-        ROKU: "https://www.roku.com",
-        CSE: "http://cseweb.ucsd.edu/classes/wi16/cse11-b/staff.html",
-        UCLA: "http://esc.seas.ucla.edu/wp-content/uploads/esc/Caelean_Barnes_Poster.pdf",
-        TWITTERMAP: "https://caeleanb.github.io/twittermap",
-        LIVELIST: "https://github.com/caeleanb/livelist",
-        INSTAJOB: "https://devpost.com/software/instajob"
+        CARTA: 'https://carta.com',
+        ROKU: 'https://www.roku.com',
+        CSE: 'http://cseweb.ucsd.edu/classes/wi16/cse11-b/staff.html',
+        UCLA: 'http://esc.seas.ucla.edu/wp-content/uploads/esc/Caelean_Barnes_Poster.pdf',
+        TWITTERMAP: 'https://caeleanb.github.io/twittermap',
+        LIVELIST: 'https://github.com/caeleanb/livelist',
+        INSTAJOB: 'https://devpost.com/software/instajob',
+        GITHUB: 'https://github.com/caelean',
+        EMAIL: 'mailto:caeleanb@gmail.com',
+        LINKEDIN: 'https://linkedin.com/in/caelean',
+        RESUME: '/client/src/assets/Caelean_Barnes_Resume_2018.pdf'
 
     }
 };

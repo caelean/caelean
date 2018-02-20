@@ -9,22 +9,30 @@ class Bar extends Component {
                 <ul className="icon-ul">
                     <li className="icon-list">
                         <span>
-                            <img className="icon pop" src={Constants.ICONS.EMAIL}/>
+                            <a href={Constants.LINKS.EMAIL} target="_blank">
+                                <img className="icon pop" src={Constants.ICONS.EMAIL}/>
+                            </a>
                         </span>
                     </li>
                     <li className="icon-list">
                         <span>
-                            <img className="icon pop" src={Constants.ICONS.LINKEDIN}/>
+                            <a href={Constants.LINKS.LINKEDIN} target="_blank">
+                                <img className="icon pop" src={Constants.ICONS.LINKEDIN}/>
+                            </a>
                         </span>
                     </li>
                     <li className="icon-list">
                         <span>
-                            <img className="icon pop" src={Constants.ICONS.GITHUB}/>
+                             <a href={Constants.LINKS.GITHUB} target="_blank">
+                                    <img className="icon pop" src={Constants.ICONS.GITHUB}/>
+                                </a>
                         </span>
                     </li>
                     <li className="icon-list">
                         <span>
-                            <img className="icon pop" src={Constants.ICONS.RESUME}/>
+                            <a href={Constants.LINKS.RESUME} target="_blank">
+                                <img className="icon pop" src={Constants.ICONS.RESUME}/>
+                            </a>
                         </span>
                     </li>
                 </ul>
