@@ -25,6 +25,7 @@ a {
 .photo {
     width: 70%;
     height: 70%;
+    filter: invert(0%);
 }
 
 .column {
@@ -94,6 +95,13 @@ a {
     position: relative;
 }
 
+.bar {
+    right: 1%;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
 .static-header {
     text-align: left;
     position: relative;
@@ -111,4 +119,32 @@ a {
 
 .work, .education, .projects, .contact {
     color:black;
+}
+
+.icon {
+    width: 25%;
+    float: right;
+    filter: invert(100%);
+}
+
+.icon:hover {
+    filter: invert(0%);
+}
+
+ul
+{
+    display: table;
+    table-layout: fixed;
+    height: 100vh;
+}
+
+li
+{
+    text-align: left;
+    display: table-row;
+}
+span
+{
+    display: table-cell;
+    vertical-align: middle;
 }
