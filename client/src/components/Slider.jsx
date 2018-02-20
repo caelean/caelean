@@ -8,7 +8,7 @@ class Slider extends Component {
         return (
             <div className="slider">
                <Segment titleText="Caelean Barnes"
-                 contentInfo="Engineering and Design"
+                 contentInfo="Welcome to my website! Feel free to shoot me an email if you want to chat!"
                  image={<img className="photo" src={Constants.IMAGES.HEADSHOT}/>}
                  section="home"
                />

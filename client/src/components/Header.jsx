@@ -9,8 +9,6 @@ class Header extends Component {
                 <a className="education" href="#education">Education</a>
                 &nbsp;
                 <a className="projects" href="#projects">Projects</a>
-                &nbsp;
-                <a className="contact" href="#contact">Contact</a>
             </div>
         )
     }

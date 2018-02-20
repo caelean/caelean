@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import Segment from './Segment.jsx';
 import Slider from './Slider.jsx';
-import Title from './Title.jsx';
+import Bar from './Bar.jsx';
 import Header from './Header.jsx';
 
 class Home extends Component {
@@ -20,6 +20,7 @@ class Home extends Component {
         return (
             <div className="home">
                 <Slider/>
+                <Bar/>
                 <div className="triangle"/>
                 <div className="box"/>
                 <Header/>
