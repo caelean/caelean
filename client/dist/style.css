@@ -14,6 +14,11 @@ a {
     color: black;
 }
 
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .title {
     font: 2em Avenir, sans-serif;
 }
@@ -40,6 +45,14 @@ a {
     width: 70%;
 }
 
+.welcome-photo {
+    width: 15%;
+}
+
+.welcome {
+    font: 2em Avenir, sans-serif;
+}
+
 .segment {
     min-height: 40vh;
     padding-left: 10%;
@@ -47,12 +60,6 @@ a {
     padding-top: 5%;
     z-index: 1;
     position: relative
-}
-
-.segment:first-child {
-    padding: 0;
-    width: 50%;
-    color: white;
 }
 
 .segment:after {
@@ -67,7 +74,7 @@ a {
     left: 40vw;
     top: 35vh;
     z-index: 0;
-
+    height: 100%;
 }
 
 .triangle {
@@ -131,20 +138,17 @@ a {
     filter: invert(0%);
 }
 
-ul
-{
+.icon-ul {
     display: table;
     table-layout: fixed;
     height: 100vh;
 }
 
-li
-{
+.icon-list {
     text-align: left;
     display: table-row;
 }
-span
-{
-    display: table-cell;
-    vertical-align: middle;
+
+.white {
+    color: white;
 }
