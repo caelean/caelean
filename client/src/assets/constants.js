@@ -12,6 +12,12 @@ const Constants = {
         NDN: require('./hssrp_poster.jpg'),
         LIVELIST: require('./livelist_logo.png')
     },
+    ICONS: {
+        GITHUB: require('./github.png'),
+        EMAIL: require('./email.png'),
+        RESUME: require('./resume.png'),
+        LINKEDIN: require('./linkedin.png')
+    },
     POINTS: {
         CARTA: [
             'Built Cap Table Access page, increasing requests by over 50%',
