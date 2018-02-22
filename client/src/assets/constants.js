@@ -92,6 +92,18 @@ const Constants = {
             'Atlassian'
         ]
     },
+    DATES: {
+        CARTA: 'July 2016 - Current',
+        ROKU: 'June - September 2015',
+        SECTIONLEAD: 'December 2015 - June 2016',
+        UCLA: 'June - August 2013',
+        UCSD: '2018',
+        VU: '2017',
+        TWITTERMAP: '2017',
+        LIVELIST: '2016',
+        INSTAJOB: '2015',
+        HSSRP: '2013'
+    },
     LINKS: {
         CARTA: 'https://carta.com',
         ROKU: 'https://www.roku.com',

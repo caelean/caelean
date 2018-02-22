@@ -32,21 +32,25 @@ class Home extends Component {
                          contentInfo={points_list.CARTA}
                          image={<img className="photo pop" src={Constants.IMAGES.CARTA}/>}
                          link={Constants.LINKS.CARTA}
+                         date={Constants.DATES.CARTA}
                 />
                 <Segment titleText="Software Engineering Intern, Web Development"
                          contentInfo={points_list.ROKU}
                          image={<img className="photo pop" src={Constants.IMAGES.ROKU}/>}
                          link={Constants.LINKS.ROKU}
+                         date={Constants.DATES.ROKU}
                 />
                 <Segment titleText="Section Lead, Jacobs School of Engineering"
                          contentInfo={points_list.SECTIONLEAD}
                          image={<img className="photo pop" src={Constants.IMAGES.CSE}/>}
                          link={Constants.LINKS.CSE}
+                         date={Constants.DATES.SECTIONLEAD}
                 />
                 <Segment titleText="Research Intern, Internet Research Lab"
                          contentInfo={points_list.UCLA}
                          image={<img className="photo pop" src={Constants.IMAGES.UCLA}/>}
                          link={Constants.LINKS.UCLA}
+                         date={Constants.DATES.UCLA}
                 />
                 <div className="static-header header-education">
                     <a id="education"/>
@@ -54,11 +58,13 @@ class Home extends Component {
                 </div>
                 <Segment titleText="UC San Diego, Jacobs School of Engineering"
                          contentInfo={points_list.UCSD}
+                         date={Constants.DATES.UCSD}
                          image={<img className="photo pop" src={Constants.IMAGES.UCSD}/>}
 
                 />
                 <Segment titleText="Vrije Universiteit Amsterdam, Faculty of Science"
                          contentInfo={points_list.AMS}
+                         date={Constants.DATES.VU}
                          image={<img className="photo pop" src={Constants.IMAGES.AMS}/>}
                 />
                 <div className="static-header header-projects">
@@ -67,18 +73,21 @@ class Home extends Component {
                 </div>
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
+                         date={Constants.DATES.TWITTERMAP}
                          image={<img className="photo pop" src={Constants.IMAGES.TWITTERMAP}/>}
                          link={Constants.LINKS.TWITTERMAP}
 
                 />
                 <Segment titleText="Web Based NDN File System Access"
                          contentInfo={points_list.NDN}
+                         date={Constants.DATES.HSSRP}
                          image={<img className="photo pop" src={Constants.IMAGES.NDN}/>}
                          link={Constants.LINKS.UCLA}
 
                 />
                 <Segment titleText="LiveList"
                          contentInfo={points_list.LIVELIST}
+                         date={Constants.DATES.LIVELIST}
                          image={<img className="photo pop" src={Constants.IMAGES.LIVELIST}/>}
                          link={Constants.LINKS.LIVELIST}
                 />
@@ -86,7 +95,7 @@ class Home extends Component {
                          contentInfo={points_list.INSTAJOB}
                          image={<img className="photo pop" src={Constants.IMAGES.INSTAJOB}/>}
                          link={Constants.LINKS.INSTAJOB}
-
+                         date={Constants.DATES.INSTAJOB}
                 />
             </div>
         )

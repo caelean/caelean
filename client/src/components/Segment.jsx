@@ -14,7 +14,7 @@ class Segment extends Component {
                     <a href={this.props.link}  target="_blank">
                         <Title text={this.props.titleText}/>
                     </a>
-                    <Content info={this.props.contentInfo}/>
+                    <Content info={this.props.contentInfo} date={this.props.date}/>
                     <br/>
                 </div>
             </div>
