@@ -62,7 +62,7 @@ class Home extends Component {
                          image={<img className="photo pop" src={Constants.IMAGES.UCSD}/>}
 
                 />
-                <Segment titleText="Vrije Universiteit Amsterdam, Faculty of Science"
+                <Segment titleText="Vrije Universiteit Semester in Amsterdam"
                          contentInfo={points_list.AMS}
                          date={Constants.DATES.VU}
                          image={<img className="photo pop" src={Constants.IMAGES.AMS}/>}
