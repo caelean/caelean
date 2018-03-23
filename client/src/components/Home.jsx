@@ -8,7 +8,6 @@ import Header from './Header.jsx';
 
 class Home extends Component {
     render() {
-
         const points_list = Constants.POINTS;
         for(let key in points_list) {
             points_list[key] = points_list[key].map((point) =>
