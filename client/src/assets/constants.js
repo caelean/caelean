@@ -75,23 +75,6 @@ const Constants = {
             'Proof of concept for file access on an NDN internet',
             'Built with Javascript, Python, and MongoDB'
         ],
-        SKILLS: [
-            'Python',
-            'Django',
-            'JavaScript',
-            'React',
-            'Java',
-            'HTML',
-            'Node',
-            'Jenkins',
-            'AWS',
-            'CSS',
-            'Shell',
-            'Git',
-            'Asana',
-            'Atlassian'
-        ]
-    },
     DATES: {
         CARTA: 'July 2016 - Current',
         ROKU: 'June - September 2015',
@@ -116,7 +99,6 @@ const Constants = {
         EMAIL: 'mailto:caeleanb@gmail.com',
         LINKEDIN: 'https://linkedin.com/in/caelean',
         RESUME: 'https://caelean.github.io/files/Caelean_Barnes_Resume_2018.pdf'
-
     }
 };
 export default Constants;
