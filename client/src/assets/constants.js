@@ -10,7 +10,8 @@ const Constants = {
         TWITTERMAP: require('./twittermap.png'),
         INSTAJOB: require('./instajob_logo.png'),
         NDN: require('./hssrp_poster.jpg'),
-        LIVELIST: require('./livelist_logo.png')
+        LIVELIST: require('./livelist_logo.png'),
+        ML: require('./ml_screenshot.jpg')
     },
     ICONS: {
         GITHUB: require('./github.png'),
@@ -75,6 +76,15 @@ const Constants = {
             'Proof of concept for file access on an NDN internet',
             'Built with Javascript, Python, and MongoDB'
         ],
+        ML: [
+            'Implemented Support Vector Machines, K Nearest Neighbors, and Neural Networks',
+            'Cleaned and formatted  data sets from the UCI Machine Learning Repository',
+            'Tuned hyperparameters and ran each model on each data set',
+            'Compared test accuracy across all three models and all four data sets',
+            'Utilized scikit-learn and Tensorflow to implement the classifiers',
+            'Processed with Numpy, Scipy, and Pandas; all code written in Python'
+        ],
+    },
     DATES: {
         CARTA: 'July 2016 - Current',
         ROKU: 'June - September 2015',
@@ -85,7 +95,8 @@ const Constants = {
         TWITTERMAP: '2017',
         LIVELIST: '2016',
         INSTAJOB: '2015',
-        HSSRP: '2013'
+        HSSRP: '2013',
+        ML: '2018'
     },
     LINKS: {
         CARTA: 'https://carta.com',
@@ -98,7 +109,8 @@ const Constants = {
         GITHUB: 'https://github.com/caelean',
         EMAIL: 'mailto:caeleanb@gmail.com',
         LINKEDIN: 'https://linkedin.com/in/caelean',
-        RESUME: 'https://caelean.github.io/files/Caelean_Barnes_Resume_2018.pdf'
+        RESUME: 'https://caelean.github.io/files/Caelean_Barnes_Resume_2018.pdf',
+        ML: 'https://caelean.github.io/files/ML_Project/Machine_Learning_Model_Comparison.pdf'
     }
 };
 export default Constants;

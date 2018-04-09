@@ -70,6 +70,13 @@ class Home extends Component {
                     <a id="projects"/>
                     <div className="title">Projects</div>
                 </div>
+                <Segment titleText="Machine Learning Model Comparison"
+                         contentInfo={points_list.ML}
+                         date={Constants.DATES.ML}
+                         image={<img className="photo pop" src={Constants.IMAGES.ML}/>}
+                         link={Constants.LINKS.ML}
+
+                />
                 <Segment titleText="Twittermap"
                          contentInfo={points_list.TWITTERMAP}
                          date={Constants.DATES.TWITTERMAP}
