@@ -115,7 +115,7 @@ const Constants = {
         GITHUB: 'https://github.com/caelean',
         EMAIL: 'mailto:caeleanb@gmail.com',
         LINKEDIN: 'https://linkedin.com/in/caelean',
-        RESUME: 'https://caelean.github.io/resume/Caelean_Barnes_Resume_2018.pdf'
+        RESUME: 'https://caelean.github.io/files/Caelean_Barnes_Resume_2018.pdf'
 
     }
 };
