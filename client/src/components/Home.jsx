@@ -27,6 +27,12 @@ class Home extends Component {
                     <a id="work"/>
                     <div className="title">Experience</div>
                 </div>
+                <Segment titleText="Full Stack Engineer"
+                         contentInfo={points_list.NOBLE}
+                         image={<img className="photo pop" src={Constants.IMAGES.NOBLE}/>}
+                         link={Constants.LINKS.NOBLE}
+                         date={Constants.DATES.NOBLE}
+                />
                 <Segment titleText="Software Engineering Intern, Investor Services"
                          contentInfo={points_list.CARTA}
                          image={<img className="photo pop" src={Constants.IMAGES.CARTA}/>}

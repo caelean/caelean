@@ -2,6 +2,7 @@ const Constants = {
     IMAGES: {
         HEADSHOT: require('./bw_headshot_circle.png'),
         ROKU: require('./roku_logo.jpg'),
+        NOBLE: require('./noble_logo.png'),
         CARTA: require('./carta_logo.jpg'),
         CSE: require('./cse_logo.jpg'),
         UCLA: require('./ucla_logo.jpg'),
@@ -20,6 +21,11 @@ const Constants = {
         LINKEDIN: require('./linkedin.png')
     },
     POINTS: {
+        NOBLE: [
+            'Building AI Software to help enterprises reduce R&D costs by 10x',
+            'Founding Team'
+
+        ],
         CARTA: [
             'Built Cap Table Access page, increasing requests by over 50%',
             'Built Investor Relations page, allowing companies to control information rights of their investors',
@@ -86,7 +92,8 @@ const Constants = {
         ],
     },
     DATES: {
-        CARTA: 'July 2016 - Current',
+        NOBLE: 'July 2018 - Current',
+        CARTA: 'July 2016 - July 2018',
         ROKU: 'June - September 2015',
         SECTIONLEAD: 'December 2015 - June 2016',
         UCLA: 'June - August 2013',
@@ -99,6 +106,7 @@ const Constants = {
         ML: '2018'
     },
     LINKS: {
+        NOBLE: 'https://noble.ai',
         CARTA: 'https://carta.com',
         ROKU: 'https://www.roku.com',
         CSE: 'http://cseweb.ucsd.edu/classes/wi16/cse11-b/staff.html',
