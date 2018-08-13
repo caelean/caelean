@@ -33,6 +33,7 @@
     "express": "^4.16.2",
     "file-loader": "^1.1.5",
     "heroku": "^0.2.0",
+    "node-growl": "^0.1.1",
     "nodemon": "^1.18.3",
     "react": "^16.2.0",
     "react-anime": "^2.0.1",
@@ -45,12 +46,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "file-loader": "^1.1.5"
+    "babel-register": "^6.26.0"
   }
 }
