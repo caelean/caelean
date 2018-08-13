@@ -32,6 +32,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "file-loader": "^1.1.5",
+    "growl": "^1.10.5",
     "heroku": "^0.2.0",
     "node-growl": "^0.1.1",
     "nodemon": "^1.18.3",
